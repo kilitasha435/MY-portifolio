@@ -1,6 +1,37 @@
-body{
-    background-image: url("car.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: blanchedalmond;
-  }
+header{
+ font-size: 65px;
+ font-style: italic;
+ text-align: center;
+} 
+img{
+  padding-left: 500px;
+} 
+ul{
+  position: fixed;
+  width: 100%;
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+ overflow: hidden;
+ background-color:blanchedalmond;
+ top: 1px;
+} 
+li{
+  float: left;
+  margin-left:30% ;
+  margin:30px ;
+  margin-right: 5%;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+li a {
+  display: block;
+  color: blue;
+  text-align: left;
+  padding: 12px 11px;
+ text-decoration: rgb(30, 30, 182);
+ padding: 30px;
+}
+li b {
+  text-align: end;
+}
