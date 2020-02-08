@@ -43,7 +43,7 @@ li b {
    font-size: 15px;
 }
 body{
-  background-image: url(download.jpeg);
+  background-image: url(pexels-photo-235994.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border: 5px solid purple;
@@ -66,4 +66,18 @@ a:hover, a:active{
 }
 table, th,td {
   border: 1px solid black;
+  padding: 15px;
+  border-spacing: 5px;
 }
+th{
+  padding-left: 0px;
+  }
+  .efg{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+  }
+  .branch{
+    text-align: center;
+  }
