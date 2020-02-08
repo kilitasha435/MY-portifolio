@@ -6,6 +6,9 @@ header{
 img{
   padding-left: 500px;
 } 
+img a{
+  padding-bottom: 20%;
+}
 ul{
   position: relative;
   width: 100%;
@@ -43,4 +46,24 @@ body{
   background-image: url(download.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  border: 5px solid purple;
+  margin: 10px;
+}
+p{
+  padding: 10px;
+}
+a:link, a:visited {
+  background-color: limegreen;
+  color: blue;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-size-adjust: 2%;
+}
+a:hover, a:active{
+  background-color: cyan;
+}
+table, th,td {
+  border: 1px solid black;
 }
